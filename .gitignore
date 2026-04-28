@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual env
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Storage (ВАЖНО - у тебя тут всё генерируется)
+storage/
+!storage/.gitkeep
+
+# Models (весит много)
+models/
+!backend/app/models/
+!backend/app/models/*.py
+
+# Audio uploads
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+
+# Transcription artifacts
+*.pdf
+
+# Docker
+*.pid
+*.seed
+
+# Environment
+.env
+
+# Pytest / cache
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Node (если есть фронт)
+node_modules/
+dist/
+build/
